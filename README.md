@@ -29,12 +29,13 @@ Follow these steps to set up the Contact-Management project locally:
 2. Navigate to the project directory: `cd dir`
 3. Install the dependencies: `npm install`
 4. Create a `.env` file in the root of the project.
+6.start project in localhost
+`npm run dev`
 5. Add the necessary environment variables to the `.env` file:
 
 ```plaintext
 NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api/v1/contact
 
-6.start project in localhost
-`npm run dev`
+
 ## Author
 [Abul ala jobayar]
