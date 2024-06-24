@@ -34,6 +34,7 @@ Follow these steps to set up the Contact-Management project locally:
 ```plaintext
 NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api/v1/contact
 
-
+6.start project in localhost
+`npm run dev`
 ## Author
 [Abul ala jobayar]
