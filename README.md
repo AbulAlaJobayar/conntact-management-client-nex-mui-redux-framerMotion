@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Contacts Management Application
 
-## Getting Started
+## Description
+This is a contacts management application built using the MERN stack (MongoDB, Express, React/Next.js, Node.js) with TypeScript. The application allows users to add, update, delete, and view contacts.
 
-First, run the development server:
+## Features
+- Add new contacts with name, email, phone, address, and profile picture.
+- View all contacts in a card layout.
+- Update contact details.
+- Delete contacts.
+- Mark contacts as favorites.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technology Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **TypeScript**: Adds static typing to JavaScript for improved code quality.
+- **Material-UI (MUI)**: A popular React UI framework for building responsive and accessible designs.
+- **Redux**: A predictable state container for JavaScript applications.
+- **Zod**: A TypeScript-first schema declaration and validation library.
+- **React Hook Form**: A performant, flexible, and extensible form library for React.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup
 
-## Learn More
+Follow these steps to set up the Contact-Management project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone [repository-url]`
+2. Navigate to the project directory: `cd dir`
+3. Install the dependencies: `npm install`
+4. Create a `.env` file in the root of the project.
+5. Add the necessary environment variables to the `.env` file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```plaintext
+NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api/v1/contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+[Abul ala jobayar]
